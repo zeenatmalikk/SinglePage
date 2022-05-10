@@ -1,0 +1,85 @@
+.services-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.services {
+  margin-top: 6%;
+}
+.services-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.services-p {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 5px 0;
+}
+.tick-icon {
+  background-color: #4d46c7;
+  border-radius: 100px;
+  padding: 2px;
+}
+.services-title {
+  font-size: 42px;
+  font-weight: 700;
+  width: 70%;
+  margin: 20px 0;
+  color: #000;
+}
+.services-para {
+  font-size: 16px;
+  font-weight: 400;
+  width: 70%;
+  margin: 20px 0;
+  color: #323d59;
+}
+.point-name {
+  color: #7a7d83;
+
+  font-size: 16px;
+  margin: 7px 10px;
+}
+.c-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-services {
+  border: 1px solid rgb(216, 211, 211);
+
+  transition: 0.3s;
+  width: 70%;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+.card-services:hover {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #fff;
+}
+.s-cards-flex {
+  padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .services-title {
+    width: 80%;
+    padding: 0 20px;
+  }
+  .card-services {
+    width: 80%;
+    height: 250px;
+
+    margin: 20px 0;
+  }
+}

@@ -1,0 +1,87 @@
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+
+}
+.top-desc{
+  color: #232BEC;
+  font-weight: 500;
+}
+.top-title{
+  color: #000;
+  font-weight: 600;
+}
+.bottom-desc{
+  font-size: 19px;
+  margin: 40px 0 20px 0;
+  font-weight: 400;
+  width: 80%;
+}
+.content-container {
+  width: 80%;
+}
+.share-email {
+  display: flex;
+  align-items: center;
+}
+.share-email input {
+  height:52px ;
+  width: 400px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #333;
+}
+.share-email input::placeholder{
+  color: #333;
+  padding: 0 10px;
+}
+.share-email button {
+  width: 100px;
+  height: 52px; border-radius: 6px;
+  outline: none;
+  border: 1px solid #030be8;
+  position: relative;
+  right: 50px;
+  background-color: #030BE8;
+}
+.bg-container {
+  height: 100vh;
+}
+.bg-intro {
+  background-image: url("https://cdn.pixabay.com/photo/2020/02/25/09/57/road-4878453_960_720.jpg");
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  margin: 10% 16px;
+  background-color: aqua;
+
+  border-radius: 20px;
+}
+.bg-intro2 {
+    background-image: url("https://cdn.pixabay.com/photo/2020/02/25/09/57/road-4878453_960_720.jpg");
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    margin: 30% 16px;
+    background-color: aqua;
+  
+    border-radius: 20px;
+  }
+@media only screen and (max-width: 600px) {
+  .bg-container {
+  display: none;
+
+  }
+  
+  
+  }
